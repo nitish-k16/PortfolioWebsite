@@ -177,7 +177,7 @@ body {
 }
 
 #Projects .card:hover {
-  scale: 110%;
+  transform: scale(1.1, 1.1);
   transition-duration: 200ms;
 }
 
@@ -229,7 +229,7 @@ body {
     75%,
     rgba(25, 224, 231, 0.699)
   );
-  scale: 105%;
+  transform: scale(1.05, 1.05);
   transition-duration: 100ms;
 }
 
@@ -241,7 +241,7 @@ body {
 
 #Projects-Skillsets hr {
   border-top: 2px solid rgb(255, 187, 1);
-  scale: 90%;
+  transform: scale(0.9, 1);
 }
 
 #Contact {
@@ -268,7 +268,7 @@ body {
 }
 
 .social img:hover {
-  scale: 120%;
+  transform: scale(1.2, 1.2);
   transition-duration: 100ms;
 }
 
@@ -328,16 +328,11 @@ body {
     margin-top: 3em;
   }
 
-  .home-img {
-    margin-top: -5em;
-    margin-bottom: 10em;
-  }
-
   .about-me-text {
     margin-top: -4em;
     margin-left: 2em;
     margin-right: 2em;
-    margin-bottom: 6em;
+    margin-bottom: 2em;
     font-size: 125%;
   }
   .social {
@@ -359,8 +354,6 @@ body {
     width: 29.33%;
     margin: 2%;
     padding: 2em;
-    margin-top: -5em;
-    margin-bottom: 10em;
   }
 
   #Contact {
@@ -411,16 +404,10 @@ body {
     width: 46%;
     margin: 2%;
     padding: 2em;
-    margin-top: -5em;
-    margin-bottom: 8em;
   }
 
   #Contact {
     height: 70%;
-  }
-
-  #Projects-Skillsets hr {
-    scale: 80%;
   }
 }
 
