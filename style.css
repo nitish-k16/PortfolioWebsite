@@ -1,0 +1,468 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  height: -webkit-fill-available;
+}
+
+::-moz-selection {
+  /* Code for Firefox */
+  background: rgba(255, 166, 0, 0.753);
+}
+
+::selection {
+  background: rgba(255, 166, 0, 0.753);
+}
+
+.verticalLine {
+  border-left: solid grey;
+  height: 16em;
+  margin-bottom: 3em;
+}
+.navbar {
+  background-image: linear-gradient(to left, #da8484, 50%, #c084ac);
+  font-family: Merriweather;
+  font-size: 1.25rem;
+}
+
+.navbar-nav li {
+  padding-right: 2em;
+}
+
+.nav-link {
+  font-size: 1em !important;
+}
+
+#Home {
+  background-image: url(Assets/Images/trek2.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.home-text {
+  font-family: Poppins;
+  color: azure;
+  margin-top: 16em;
+}
+
+.home-text h1 {
+  font-size: 400%;
+}
+
+.home-text h3 {
+  font-size: 200%;
+}
+
+#Me {
+  box-shadow: 5px 5px 10px #ff7300;
+}
+.home-img {
+  margin-top: 7em;
+}
+
+#Education {
+  background: linear-gradient(to left, #000000, 25%, #06252e);
+  color: linen;
+  font-family: Merriweather;
+}
+
+.education {
+  margin-left: 5em;
+}
+
+.about-me-images {
+  margin-top: 2em;
+  margin-left: 3em;
+}
+
+.about-me-images img {
+  width: 100%;
+}
+
+#About {
+  background-image: url(Assets/Images/trek.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 151%;
+}
+
+#About h1 {
+  color: beige;
+  text-align: center;
+  font-size: 300%;
+  font-weight: 500;
+  padding-top: 3em;
+  font-family: Merriweather;
+}
+
+#slides {
+  box-shadow: 5px 5px 10px beige;
+}
+
+.about-me-text {
+  margin-top: 2.5em;
+  margin-left: 2em;
+  margin-right: 2em;
+  margin-bottom: 2em;
+  color: whitesmoke;
+  font-family: Merriweather;
+  font-size: 150%;
+}
+
+.scuba {
+  background-image: url(Assets/Videos/fish.gif);
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+}
+
+.scuba-text {
+  font-family: Poppins;
+  color: chartreuse;
+  font-size: 200%;
+  margin-top: 3em;
+}
+
+.scuba-vid {
+  margin-top: 3em;
+  margin-bottom: 7em;
+}
+
+#Projects-Skillsets {
+  background-image: url(Assets/Images/bg1.jpg);
+  height: 235%;
+  font-family: Poppins;
+}
+
+#Projects h1 {
+  margin-top: 2em;
+  margin-left: 2em;
+  margin-bottom: 2em;
+  font-family: consolas, Merriweather;
+  text-decoration: underline;
+  text-decoration-color: rgb(252, 67, 104);
+  text-decoration-style: wavy;
+  color: rgb(0, 238, 255);
+  text-align: left;
+}
+
+#Projects h1 span {
+  background-color: rgb(20, 126, 168);
+}
+
+#Projects .card {
+  margin-bottom: 5em;
+  margin-left: 3em;
+  margin-right: 3em;
+  background-color: cadetblue;
+  transition-duration: 200ms;
+}
+
+#Projects .card:hover {
+  scale: 110%;
+  transition-duration: 200ms;
+}
+
+#Projects .card-header {
+  background-color: rgb(76, 128, 129);
+  margin-bottom: 0.5em;
+}
+
+#Projects .card-body .btn-secondary {
+  background-color: rgb(76, 128, 129);
+  color: black;
+}
+
+#Projects .card-body .btn-secondary:hover {
+  background-color: rgb(0, 255, 242);
+}
+
+.skills-text h1 {
+  font-family: Pacifico;
+  color: darkblue;
+  text-decoration: underline;
+  margin-top: 2em;
+  margin-left: 2em;
+  margin-bottom: 2em;
+  text-align: left;
+}
+
+.skills {
+  width: 16%;
+  border-style: solid;
+  border-radius: 1em;
+  border-color: yellowgreen;
+  color: yellowgreen;
+  margin: 2%;
+  padding: 2em;
+  transition-duration: 100ms;
+}
+
+.skills h6 {
+  font-size: large;
+}
+
+.skills:hover {
+  background-image: linear-gradient(
+    to left,
+    #01a8f58a,
+    75%,
+    rgba(25, 224, 231, 0.699)
+  );
+  scale: 105%;
+  transition-duration: 100ms;
+}
+
+.skills:hover h6 {
+  text-decoration: underline;
+  text-decoration-color: salmon;
+  text-decoration-thickness: 0.2em;
+}
+
+#Projects-Skillsets hr {
+  border-top: 2px solid rgb(255, 187, 1);
+  scale: 90%;
+}
+
+#Contact {
+  background-image: linear-gradient(to left, #6164fc, 50%, #020d2b);
+  height: 40%;
+}
+
+.connect {
+  margin-top: 7em;
+  font-family: Merriweather;
+  color: white;
+  text-decoration: underline;
+}
+
+.social {
+  margin-top: 4em;
+  padding-right: 3.5em;
+}
+
+.social img {
+  transition-duration: 100ms;
+  margin: 2em;
+}
+
+.social img:hover {
+  scale: 120%;
+  transition-duration: 100ms;
+}
+
+/* #Skills .card {
+  margin-bottom: 5em;
+  margin-left: 3em;
+  margin-right: 3em;
+  border-color: rgb(182, 8, 8);
+  border-radius: 1em;
+  border-width: 2;
+} */
+
+/*---Media Queries --*/
+@media (max-width: 992px) {
+  .about-me-images {
+    margin-left: 0em;
+    margin-top: -10em;
+    scale: 50%;
+  }
+
+  #About {
+    height: 200%;
+  }
+
+  .about-me-text {
+    margin-top: -5em;
+    margin-left: 2em;
+    margin-right: 2em;
+    margin-bottom: 2em;
+  }
+
+  .skills {
+    width: 21%;
+    margin: 2%;
+    padding: 2em;
+  }
+
+  #Connect {
+    height: 75%;
+  }
+
+  .social {
+    margin-top: 1em;
+  }
+}
+@media (max-width: 768px) {
+  #Home {
+    height: 130%;
+  }
+  .about-me-images {
+    margin-left: 0em;
+    margin-top: -5em;
+    scale: 50%;
+  }
+
+  .home-text {
+    margin-top: 3em;
+  }
+
+  .about-me-text {
+    margin-top: -4em;
+    margin-left: 2em;
+    margin-right: 2em;
+    margin-bottom: 2em;
+    font-size: 125%;
+  }
+  .social {
+    margin-top: 0em;
+    margin-bottom: 3em;
+  }
+
+  .education {
+    margin-left: 1em;
+  }
+  #Contact {
+    height: 50%;
+  }
+
+  #Projects-Skillsets {
+    height: 245%;
+  }
+  .skills {
+    width: 29.33%;
+    margin: 2%;
+    padding: 2em;
+  }
+
+  #Contact {
+    height: 55%;
+  }
+}
+@media (max-width: 576px) {
+  #Home {
+    height: 125%;
+  }
+
+  .home-text {
+    margin-top: 3em;
+  }
+
+  #Education h3 {
+    font-size: 135%;
+  }
+
+  #Education h5 {
+    font-size: 100%;
+    line-height: 1.5em;
+  }
+
+  #Education h6 {
+    font-size: 75%;
+    line-height: 1.5em;
+  }
+
+  #About {
+    height: 200%;
+  }
+
+  .about-me-images {
+    margin-top: 3em;
+  }
+
+  .about-me-text {
+    font-size: 100%;
+    margin-top: 3em;
+  }
+
+  #Projects-Skillsets {
+    height: 275%;
+  }
+
+  .skills {
+    width: 46%;
+    margin: 2%;
+    padding: 2em;
+  }
+
+  #Contact {
+    height: 70%;
+  }
+
+  #Projects-Skillsets hr {
+    scale: 80%;
+  }
+}
+
+/*---Firefox Bug Fix --*/
+.carousel-item {
+  transition: -webkit-transform 0.5s ease;
+  transition: transform 0.5s ease;
+  transition: transform 0.5s ease, -webkit-transform 0.5s ease;
+  -webkit-backface-visibility: visible;
+  backface-visibility: visible;
+}
+
+/*--- Fixed Background Image 
+figure {
+  position: relative;
+  width: 100%;
+  height: 80%;
+  margin: 0 !important;
+}
+.fixed-wrap {
+  clip: rect(0, auto, auto, 0);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 120%;
+}
+#fixed {
+  background-image: url("imagesvids/trek2.jpg");
+  position: fixed;
+  display: block;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center center;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  will-change: transform;
+} --*/
+/*--- Bootstrap Padding Fix --*/
+[class*="col-"] {
+  padding: 1rem;
+}
+
+/*
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+*/
