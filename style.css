@@ -402,6 +402,10 @@ body {
     font-size: 100%;
     margin-top: 3em;
   }
+  
+  .scuba-vid {
+    transform: scale(0.8, 0.8);
+  }
 
   #Projects-Skillsets {
     height: 275%;
