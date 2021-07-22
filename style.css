@@ -74,6 +74,33 @@ body {
   margin-bottom: 13em;
 }
 
+.home-text span:hover {
+  background: linear-gradient(
+    -45deg,
+    #901e84,
+    #dd45f8,
+    #e3adfa,
+    #6ac0fe,
+    #146aed,
+    #0c1fc4,
+    #146aed,
+    #6ac0fe,
+    #e3adfa,
+    #dd45f8,
+    #901e84
+  );
+  background-size: 400%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: animate_text 10s linear infinite;
+}
+
+@keyframes animate_text {
+  100% {
+    background-position: 400%;
+  }
+}
+
 .home-text h1 {
   font-size: 400%;
 }
